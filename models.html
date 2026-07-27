@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BMW — Models</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+       <a class="brand" href="index.html">
+          <img src="assets/images/logo.png" alt="BMW Logo" class="logo" />
+          <span>BMW</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="models.html">Models</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+        🌙
+        </button>
+          <button class="nav-toggle">☰</button>
+
+      </nav>
+
+    </header>
+
+    <main class="page container">
+      <h1>BMW Models</h1>
+     <input
+  type="text"
+  id="modelSearch"
+  placeholder="Search BMW Model..."
+  class="model-search"
+/>
+
+
+
+
+      <audio id="engine-audio"></audio>
+
+
+      <section class="models-list">
+        <div class="model-filters">
+  <button data-filter="all" class="active">All</button>
+  <button data-filter="sedan">Sedan</button>
+  <button data-filter="suv">SUV</button>
+  <button data-filter="m">M Series</button>
+  <button data-filter="electric">Electric</button>
+  <button data-filter="bike">Bike</button>
+  <button data-filter="scooter">Scooter</button>
+</div>
+
+    
+
+
+        <div class="model-item" data-type="sedan">
+          <button class="accordion">BMW 3 Series</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/3_front.jpg" />
+                <img src="assets/images/3_back.jpg" />
+                <img src="assets/images/3_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/3.mp4"
+                ></video>
+              </div>
+            </div>
+
+          <ul class="features">
+  <li><strong>Engine:</strong> 2.0L TwinPower Turbo</li>
+  <li><strong>Power:</strong> 255 hp</li>
+  <li><strong>Torque:</strong> 400 Nm</li>
+  <li><strong>0–100 km/h:</strong> 5.8 sec</li>
+  <li><strong>Top Speed:</strong> 250 km/h</li>
+  <li><strong>Transmission:</strong> 8-Speed Automatic</li>
+  <li><strong>Drive:</strong> Rear / AWD</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/3.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW 3 Series" data-price="₹72 Lakh" data-price-raw="7200000">Buy Now</button>
+          </div>
+</div>
+
+
+        <div class="model-item" data-type="sedan">
+          <button class="accordion">BMW 5 Series</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/5_front.jpg" />
+                <img src="assets/images/5_back.jpg" />
+                <img src="assets/images/5_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/5.mp4"
+                ></video>
+              </div>
+            </div>
+
+        <ul class="features">
+  <li><strong>Engine:</strong> 3.0L Turbo Inline-6</li>
+  <li><strong>Power:</strong> 335 hp</li>
+  <li><strong>Torque:</strong> 450 Nm</li>
+  <li><strong>0–100 km/h:</strong> 5.1 sec</li>
+  <li><strong>Top Speed:</strong> 250 km/h</li>
+  <li><strong>Luxury:</strong> Executive Interior</li>
+  <li><strong>Drive:</strong> Rear / AWD</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/5.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW 5 Series" data-price="₹78 Lakh" data-price-raw="7800000">Buy Now</button>
+          </div>
+</div>
+
+
+        <div class="model-item" data-type="sedan">
+          <button class="accordion">BMW 7 Series</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/7_front.jpg" />
+                <img src="assets/images/7_back.jpg" />
+                <img src="assets/images/7_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                 width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/7.mp4"
+                ></video>
+              </div>
+            </div>
+
+        <ul class="features">
+  <li><strong>Engine:</strong> 4.4L V8 Twin-Turbo</li>
+  <li><strong>Power:</strong> 536 hp</li>
+  <li><strong>Torque:</strong> 750 Nm</li>
+  <li><strong>0–100 km/h:</strong> 4.2 sec</li>
+  <li><strong>Top Speed:</strong> 250 km/h</li>
+  <li><strong>Interior:</strong> Rear Executive Lounge</li>
+  <li><strong>Suspension:</strong> Adaptive Air Suspension</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/7.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW 7 Series" data-price="₹1.70 Crore" data-price-raw="17000000">Buy Now</button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="suv">
+          <button class="accordion">BMW X1</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/x1_front.jpg" />
+                <img src="assets/images/x1_back.jpg" />
+                <img src="assets/images/x1_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/x1.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features" >
+            <li><strong>Type:</strong> Compact Luxury SUV</li>
+            <li><strong>Engine:</strong> 2.0L Turbo</li>
+             <li><strong>Power:</strong> 241 hp</li>
+           <li><strong>0–100 km/h:</strong> 6.4 sec</li>
+            <li><strong>Drive:</strong> AWD</li>
+             <li><strong>Fuel Economy:</strong> Efficient Urban SUV</li>
+           </ul>
+
+
+            <button class="btn" data-audio="assets/sounds/x1.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW X1" data-price="₹49 Lakh" data-price-raw="4900000">
+             Buy Now
+            </button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="suv">
+          <button class="accordion">BMW X3</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/x3_front.jpg" />
+                <img src="assets/images/x3_back.jpg" />
+                <img src="assets/images/x3_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/x3.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+  <li><strong>Engine:</strong> 3.0L Turbo</li>
+  <li><strong>Power:</strong> up to 382 hp</li>
+  <li><strong>Torque:</strong> 500 Nm</li>
+  <li><strong>0–100 km/h:</strong> 4.9 sec</li>
+  <li><strong>Drive:</strong> xDrive AWD</li>
+  <li><strong>Use:</strong> Performance + Comfort</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/x3.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW X3" data-price="₹68 Lakh" data-price-raw="6800000">
+             Buy Now
+              </button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="suv">
+          <button class="accordion">BMW X5</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/x5_front.jpg" />
+                <img src="assets/images/x5_back.jpg" />
+                <img src="assets/images/x5_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/x5.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+  <li><strong>Engine:</strong> 3.0L / 4.4L V8</li>
+  <li><strong>Power:</strong> up to 523 hp</li>
+  <li><strong>Torque:</strong> 750 Nm</li>
+  <li><strong>0–100 km/h:</strong> 4.7 sec</li>
+  <li><strong>Drive:</strong> xDrive AWD</li>
+  <li><strong>Luxury:</strong> Premium SUV Interior</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/x5.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW X5" data-price="₹98 Lakh" data-price-raw="9800000">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="suv">
+          <button class="accordion">BMW X7</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/x7_front.jpg" />
+                <img src="assets/images/x7_back.jpg" />
+                <img src="assets/images/x7_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/x7.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+  <li><strong>Type:</strong> 7-Seater Luxury SUV</li>
+  <li><strong>Engine:</strong> 4.4L V8</li>
+  <li><strong>Power:</strong> 530 hp</li>
+  <li><strong>0–100 km/h:</strong> 4.6 sec</li>
+  <li><strong>Suspension:</strong> Adaptive Air</li>
+  <li><strong>Comfort:</strong> Executive Seating</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/x7.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW X7" data-price="₹1.30 Crore" data-price-raw="13000000">
+  Buy Now
+</button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="m">
+          <button class="accordion">BMW M2</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/m2_front.jpg" />
+                <img src="assets/images/m2_back.jpg" />
+                <img src="assets/images/m2_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/m2.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+  <li><strong>Engine:</strong> 3.0L Twin-Turbo Inline-6</li>
+  <li><strong>Power:</strong> 453 hp</li>
+  <li><strong>Torque:</strong> 550 Nm</li>
+  <li><strong>0–100 km/h:</strong> 4.1 sec</li>
+  <li><strong>Drive:</strong> Rear-Wheel Drive</li>
+  <li><strong>M Performance:</strong> Track-Tuned</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/m2.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW M2" data-price="₹1.03 Crore" data-price-raw="10300000">
+  Buy Now
+</button>
+          </div>
+        </div>
+
+
+         <div class="model-item" data-type="m">
+          <button class="accordion">BMW XM</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/xm_front.jpg" />
+                <img src="assets/images/xm_back.jpg" />
+                <img src="assets/images/xm_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/xm.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+               <li><strong>Type:</strong> High-performance luxury SUV</li>
+            <li><strong>Engine:</strong> 4.4L V8 Plug-in Hybrid</li>
+            <li>
+              <strong>Total Power:</strong> 653 hp (XM) / 748 hp (Label Red)
+            </li>
+            <li><strong>0–100 km/h:</strong> 4.3 sec</li>
+            <li>
+              <strong>Top Speed:</strong> 290 km/h (with M Drivers Package)
+            </li>
+            </ul>
+
+            <button class="btn" data-audio="assets/sounds/xm.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW XM" data-price="₹2.60 Crore" data-price-raw="26000000">
+  Buy Now
+</button>
+          </div>
+        </div>
+
+
+
+        <div class="model-item" data-type="m">
+          <button class="accordion">BMW M4 </button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/m41_front.jpg" />
+                <img src="assets/images/m41_back.jpg" />
+                <img src="assets/images/m41_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/m4_drive.mp4"
+                ></video>
+              </div>
+            </div>
+
+          <ul class="features">
+  <li><strong>Engine:</strong> 3.0L Twin-Turbo Inline-6</li>
+  <li><strong>Power:</strong> 503 hp</li>
+  <li><strong>Torque:</strong> 650 Nm</li>
+  <li><strong>0–100 km/h:</strong> 3.8 sec</li>
+  <li><strong>Drive:</strong> AWD / RWD</li>
+  <li><strong>M Tech:</strong> Carbon Fiber Components</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/m4_rev.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW M4 Competition" data-price="₹1.48 Crore" data-price-raw="14800000">
+          Buy Now</button>
+          </div>
+        </div>
+
+
+        <div class="model-item" data-type="m">
+          <button class="accordion">BMW M5</button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/m5_front.jpg" />
+                <img src="assets/images/m5_back.jpg" />
+                <img src="assets/images/m5_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/m5.mp4"
+                ></video>
+              </div>
+            </div>
+
+       <ul class="features">
+  <li><strong>Engine:</strong> 4.4L V8 Twin-Turbo</li>
+  <li><strong>Power:</strong> 627 hp</li>
+  <li><strong>Torque:</strong> 750 Nm</li>
+  <li><strong>0–100 km/h:</strong> 3.3 sec</li>
+  <li><strong>Drive:</strong> M xDrive AWD</li>
+  <li><strong>Category:</strong> Super Sedan</li>
+</ul>
+
+
+            <button class="btn" data-audio="assets/sounds/m5.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW M5" data-price="₹2.02 Crore" data-price-raw="20200000">
+          Buy Now</button>
+          </div>
+        </div>
+
+
+<div class="model-item" data-type="electric">
+  <button class="accordion">BMW i4</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/i4_front.jpg" alt="BMW i4 front">
+        <img src="assets/images/i4_back.jpg" alt="BMW i4 back">
+        <img src="assets/images/i4_side.jpg" alt="BMW i4 side">
+      </div>
+
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/i4.mp4"></video>
+      </div>
+    </div>
+
+    <ul class="features">
+      <li><strong>Type:</strong> Electric Sedan</li>
+      <li><strong>Battery:</strong> 83.9 kWh</li>
+      <li><strong>Range:</strong> up to 590 km</li>
+      <li><strong>Power:</strong> up to 536 hp</li>
+      <li><strong>0–100 km/h:</strong> 3.9 sec</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/i4.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW i4" data-price="₹77 Lakh" data-price-raw="7700000">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+
+        <div class="model-item" data-type="electric">
+          <button class="accordion">BMW i7 </button>
+          <div class="panel">
+            <div class="media-box">
+              <div class="photos">
+                <img src="assets/images/i7_front.jpg" />
+                <img src="assets/images/i7_back.jpg" />
+                <img src="assets/images/i7_side.jpg" />
+              </div>
+
+              <div class="video">
+                <video
+                  controls
+                  width="100%"
+                  height="600"
+                  object-fit="cover"
+                  src="assets/videos/i7.mp4"
+                ></video>
+              </div>
+            </div>
+
+            <ul class="features">
+              <li><strong>Type:</strong> Fully Electric Luxury Sedan</li>
+              <li><strong>Battery:</strong> 101.7 kWh</li>
+              <li><strong>Range:</strong> up to 625 km WLTP</li>
+              <li><strong>Power:</strong> up to 544 hp</li>
+              <li><strong>0–100 km/h:</strong> ~4.7 sec</li>
+            </ul>
+
+            <button class="btn" data-audio="assets/sounds/i7.mp3">
+              Play Engine Sound
+            </button>
+            <button class="btn buy-btn" data-car="BMW i7" data-price="₹1.65 Crore" data-price-raw="16500000">
+          Buy Now</button>
+          </div>
+        </div>
+
+<div class="model-item" data-type="electric">
+  <button class="accordion">BMW i8</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/i8_front.jpg" alt="BMW i8 front">
+        <img src="assets/images/i8_back.jpg" alt="BMW i8 back">
+        <img src="assets/images/i8_side.jpg" alt="BMW i8 side">
+      </div>
+
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/i8.mp4"></video>
+      </div>
+    </div>
+    <ul class="features">
+      <li><strong>Type:</strong> Hybrid Supercar</li>
+      <li><strong>Engine:</strong> 1.5L Turbo + Electric Motor</li>
+      <li><strong>Total Power:</strong> 369 hp</li>
+      <li><strong>0–100 km/h:</strong> 4.4 sec</li>
+      <li><strong>Top Speed:</strong> 250 km/h</li>
+      <li><strong>Drive:</strong> AWD (Hybrid System)</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/i8.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW i8" data-price="₹2.62 Crore" data-price-raw="26200000">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+
+
+<div class="model-item" data-type="bike">
+  <button class="accordion">BMW S1000RR</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/s1000rr_front.jpg" alt="BMW S1000RR front">
+        <img src="assets/images/s1000rr_back.jpg" alt="BMW S1000RR back">
+        <img src="assets/images/s1000rr_side.jpg" alt="BMW S1000RR side">
+      </div>
+
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/s1000rr.mp4"></video>
+      </div>
+    </div>
+
+    <ul class="features">
+      <li><strong>Type:</strong> Superbike</li>
+      <li><strong>Engine:</strong> 999cc Inline-4</li>
+      <li><strong>Power:</strong> 205 hp</li>
+      <li><strong>0–100 km/h:</strong> ~2.8 sec</li>
+      <li><strong>Top Speed:</strong> 300+ km/h</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/s1000rr.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW S1000RR" data-price="₹21 Lakh" data-price-raw="2100000">
+      Buy Now
+    </button>
+  </div>
+  </div>
+
+
+
+<div class="model-item" data-type="bike">
+  <button class="accordion">BMW R 18 Roctane</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/r18_roctane_front.jpg" alt="BMW R18 Roctane front">
+        <img src="assets/images/r18_roctane_back.jpg" alt="BMW R18 Roctane back">
+        <img src="assets/images/r18_roctane_side.jpg" alt="BMW R18 Roctane side">
+      </div>
+
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/r18_roctane.mp4"></video>
+      </div>
+    </div>
+
+    <ul class="features">
+      <li><strong>Type:</strong> Bagger / Cruiser</li>
+      <li><strong>Engine:</strong> 1802cc Boxer Twin</li>
+      <li><strong>Power:</strong> 91 hp</li>
+      <li><strong>Torque:</strong> 158 Nm</li>
+      <li><strong>Top Speed:</strong> ~180 km/h</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/r18_roctane.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW R 18 Roctane" data-price="₹24.5 Lakh" data-price-raw="2450000">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+
+
+<div class="model-item" data-type="bike">
+  <button class="accordion">BMW R 1300 GS Adventure</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/r1300gs_front.jpg" alt="BMW R1300GS front">
+        <img src="assets/images/r1300gs_back.jpg" alt="BMW R1300GS back">
+        <img src="assets/images/r1300gs_side.jpg" alt="BMW R1300GS side">
+      </div>
+
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/r1300gs.mp4"></video>
+      </div>
+    </div>
+
+    <ul class="features">
+      <li><strong>Type:</strong> Adventure / Touring Bike</li>
+      <li><strong>Engine:</strong> 1300cc Boxer Twin</li>
+      <li><strong>Power:</strong> 145 hp</li>
+      <li><strong>Torque:</strong> 149 Nm</li>
+      <li><strong>Top Speed:</strong> ~210 km/h</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/r1300gs.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW R 1300 GS Adventure" data-price="₹22.5 Lakh" data-price-raw="2250000">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+
+<div class="model-item" data-type="scooter">
+  <button class="accordion">BMW C 400 GT</button>
+  <div class="panel">
+    <div class="media-box">
+      <div class="photos">
+        <img src="assets/images/c400gt_front.jpg" alt="BMW C400GT front" />
+        <img src="assets/images/c400gt_back.jpg" alt="BMW C400GT back" />
+        <img src="assets/images/c400gt_side.jpg" alt="BMW C400GT side" />
+      </div>
+      <div class="video">
+        <video controls width="100%" height="600" object-fit="cover"
+          src="assets/videos/c400gt.mp4"></video>
+      </div>
+    </div>
+
+    <ul class="features">
+      <li><strong>Type:</strong> Maxi Scooter</li>
+      <li><strong>Engine:</strong> 350cc Single Cylinder</li>
+      <li><strong>Power:</strong> ~34 hp</li>
+      <li><strong>Torque:</strong> ~35 Nm</li>
+      <li><strong>Top Speed:</strong> ~130 km/h</li>
+    </ul>
+
+    <button class="btn" data-audio="assets/sounds/c400gt.mp3">
+      Play Engine Sound
+    </button>
+    <button class="btn buy-btn" data-car="BMW C 400 GT" data-price="₹4.20 Lakh" data-price-raw="420000">
+      Buy Now
+    </button>
+  </div>
+</div>
+
+
+  </section>
+    </section>
+    </main> 
+
+ <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <img src="assets/images/logo.png" class="footer-logo" />
+            <div>
+              <h4>BMW</h4>
+              <p>Designed for Beasts By Another Beast.</p>
+            </div>
+          </div>
+
+
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>
+              Email:
+              <a href="mailto:zeeshanshaikh.bmw@gmail.com" style="color: rgb(80,135,253);"
+                >zeeshanshaikh.bmw@gmail.com</a
+              >
+            </p>
+            <p>Phone: 7985064792</p>
+          </div>
+
+
+          <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="https://www.bmw.com" target="_blank">🌐</a>
+              <a href="https://www.facebook.com/BMW" target="_blank">📘</a>
+              <a href="https://www.instagram.com/bmw" target="_blank">📸</a>
+              <a href="https://twitter.com/BMW" target="_blank">🐦</a>
+              <a href="https://www.youtube.com/@BMW" target="_blank">▶️</a>
+            </div>
+          </div>
+        </div>
+
+        <button id="backToTop" class="back-top">↑ Back to Top</button>
+
+        <div class="copyright">
+          © 2025 BMW Masterpiece — All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
