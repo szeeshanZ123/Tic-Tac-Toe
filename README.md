@@ -1,28 +1,28 @@
-# Tic-Tac-Toe Game
+# 🎮 Tic-Tac-Toe Game
 
-A classic, interactive, and responsive **Tic-Tac-Toe** game built using web standards. Playable directly in your browser!
+A classic, interactive, and responsive **Tic-Tac-Toe** game built using clean web standards. Playable directly in any modern desktop or mobile browser!
 
 ---
 
 ## 🚀 Features
 
-*   **Interactive Gameplay:** Smooth X and O placements with win/tie validations.
-*   **Responsive Design:** Fully responsive layout that looks great on mobile, tablet, and desktop screens.
-*   **Reset Capability:** Restart the game instantly with a dedicated reset button.
+*   **Interactive Gameplay:** Smooth X and O turn transitions with automated win/tie validations.
+*   **Responsive Design:** Fully fluid grid layout that scales beautifully across mobile, tablet, and desktop screens.
+*   **Instant Reset:** Clear the board and score history seamlessly with a single click.
 
 ---
 
 ## 🛠️ Built With
 
-*   **HTML5:** Structure of the game board and layout.
-*   **CSS3:** Styling, grid layout, and modern UI enhancements.
-*   **JavaScript (ES6):** Game logic, state management, and win-condition checking.
+*   **HTML5:** Structured semantics for the game board grid and control elements.
+*   **CSS3:** Modern flexbox/grid layout, custom typography, and hover animations.
+*   **JavaScript (ES6):** State tracking, DOM manipulation, and optimal win-condition algorithms.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-├── tictactoe.html  # The main HTML structure
-├── tictactoe.css   # Board styles and layout rules
-└── tictactoe.js    # Game logic and event handlers
+├── tictactoe.html  # Application entry point and layout structure
+├── tictactoe.css   # Styling, color variables, and responsive media queries
+└── tictactoe.js    # Core game loop, event listeners, and win logic
